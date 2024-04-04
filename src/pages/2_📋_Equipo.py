@@ -21,7 +21,7 @@ col1, col2 = st.columns([1, 2])
 
 # Mostrar la imagen en la columna 1
 with col1:
-    imagen_url = "/workspaces/Presentacion-proyecto/src/images/Elisa.jpg"
+    imagen_url = "images/Elisa.jpg"
     st.image(imagen_url, width=150)
 
 # Descripción de Elisa
@@ -40,7 +40,7 @@ col1, col2 = st.columns([1, 2])
 
 # Mostrar la imagen en la columna 1
 with col1:
-    imagen_url = "/workspaces/Presentacion-proyecto/src/images/Isa.jpeg"
+    imagen_url = "images/Isa.jpeg"
     st.image(imagen_url, width=150)
 
 # Descripción de Isa
