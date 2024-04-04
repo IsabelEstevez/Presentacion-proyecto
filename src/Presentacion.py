@@ -11,9 +11,9 @@ st.markdown("""
 <svg width="600" height="50">
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
-      <stop offset="50%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-    <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
     </linearGradient>
   </defs>
   <text x="55%" y="40" fill="url(#grad1)" font-size="40" text-anchor="middle" font-weight="bold">BANK CHURN PREDICTION</text>

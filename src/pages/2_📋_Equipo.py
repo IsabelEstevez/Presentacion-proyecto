@@ -21,6 +21,25 @@ col1, col2 = st.columns([1, 2])
 
 # Mostrar la imagen en la columna 1
 with col1:
+    imagen_url = "/workspaces/Presentacion-proyecto/src/images/Elisa.jpg"
+    st.image(imagen_url, width=150)
+
+# Descripción de Elisa
+with col2:
+    st.markdown("""
+    <h2 style='font-size: 20px;'></h2>
+    <ul>
+        <li>Procedencia</li>
+        <li>Estudios: </li>
+        <li>Última profesión: </li>
+        <li>Experiencia relacionada con Data Science: </li>
+    </ul>
+    """, unsafe_allow_html=True)
+# Crear una fila en la que la imagen estará a la izquierda y el texto a la derecha
+col1, col2 = st.columns([1, 2])
+
+# Mostrar la imagen en la columna 1
+with col1:
     imagen_url = "/workspaces/Presentacion-proyecto/src/images/Isa.jpeg"
     st.image(imagen_url, width=150)
 
@@ -36,22 +55,4 @@ with col2:
     </ul>
     """, unsafe_allow_html=True)
 
-# Crear una fila en la que la imagen estará a la izquierda y el texto a la derecha
-col1, col2 = st.columns([1, 2])
 
-# Mostrar la imagen en la columna 1
-with col1:
-    imagen_url = "/workspaces/Presentacion-proyecto/src/images/Elisa.jpg"
-    st.image(imagen_url, width=150)
-
-# Descripción de Elisa
-with col2:
-    st.markdown("""
-    <h2 style='font-size: 20px;'></h2>
-    <ul>
-        <li>Procedencia</li>
-        <li>Estudios: </li>
-        <li>Última profesión: </li>
-        <li>Experiencia relacionada con Data Science: </li>
-    </ul>
-    """, unsafe_allow_html=True)
