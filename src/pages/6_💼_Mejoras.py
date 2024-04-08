@@ -8,6 +8,10 @@ estilo_css = """
     width: 100%;
     height: 600px; /* Altura deseada para la imagen */
     overflow: hidden;
+    border-radius: 20px; /* Borde redondeado */
+    border: 10px solid transparent; /* Borde transparente */
+    background: linear-gradient(to bottom right, #D32F2F, #212121); /* Degradado de fondo */
+
 }
 
 .blur-image {
@@ -15,6 +19,7 @@ estilo_css = """
     height: 100%;
     object-fit: cover;
     filter: blur(6px); /* Ajustar el valor de desenfoque según sea necesario */
+    
 }
 
 .texto-superpuesto {
@@ -52,7 +57,7 @@ estilo_css = """
 st.markdown(estilo_css, unsafe_allow_html=True)
 
 # Mostrar la imagen difuminada con texto superpuesto y lista de mejoras
-imagen_url = "https://img.freepik.com/foto-gratis/vista-frontal-flecha-roja-espacio-copia_23-2148456112.jpg?w=360"  # URL de ejemplo, reemplazar con tu URL de imagen
+imagen_url = "https://img.freepik.com/foto-gratis/vista-superior-conjunto-flechas-apuntando-arriba_23-2148490613.jpg?w=900"  # URL de ejemplo, reemplazar con tu URL de imagen
 texto_superpuesto = """
 <div class="container">
     <img class="blur-image" src="{}">
