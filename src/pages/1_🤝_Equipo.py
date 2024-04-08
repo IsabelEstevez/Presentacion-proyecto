@@ -1,7 +1,6 @@
 import streamlit as st
 
 # Título
-#st.markdown("<h2 style='text-align: center; color:#6fa8dc;'>PRESENTACIÓN DEL EQUIPO </h2>", unsafe_allow_html=True)
 st.markdown("""
 <svg width="600" height="50">
   <defs>
@@ -29,10 +28,10 @@ with col2:
     st.markdown("""
     <h2 style='font-size: 20px;'></h2>
     <ul>
-        <li>Procedencia</li>
-        <li>Estudios: </li>
-        <li>Última profesión: </li>
-        <li>Experiencia relacionada con Data Science: </li>
+        <li>Gaditana (El Puerto de Santa María)</li>
+        <li>Estudios: Ciencias del Mar en Cádiz </li>
+        <li>Última profesión: Agente de ventas </li>
+        <li>Motivos para entrar en 4Geeks: Desarrollo profesional</li>
     </ul>
     """, unsafe_allow_html=True)
 # Crear una fila en la que la imagen estará a la izquierda y el texto a la derecha
@@ -51,7 +50,7 @@ with col2:
         <li>Madrileña</li>
         <li>Estudios: Estadística en Valladolid</li>
         <li>Última profesión: Dueña de un centro de estética</li>
-        <li>Experiencia relacionada con Data Science: Empresa de alarmas - 8 años</li>
+        <li>Motivos para entrar en 4Geeks: Ampliar y asentar conocimientos</li>
     </ul>
     """, unsafe_allow_html=True)
 
