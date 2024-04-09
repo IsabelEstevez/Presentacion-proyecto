@@ -10,7 +10,9 @@ estilo_css = """
     overflow: hidden;
     border-radius: 20px; /* Borde redondeado */
     border: 10px solid transparent; /* Borde transparente */
-    background: linear-gradient(to bottom right, #D32F2F, #212121); /* Degradado de fondo */
+    background: linear-gradient(to bottom right, #D32F2F, #212121
+    
+    ); /* Degradado de fondo */
 
 }
 
